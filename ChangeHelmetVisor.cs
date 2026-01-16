@@ -106,7 +106,7 @@ public class ChangeHelmetVisor(
 
         foreach (var item in items.Values)
         {
-            if (item.Parent == "57bef4c42459772e8d35a53b" && item.Properties.FaceShieldComponent == true)
+            if ((item.Parent == "57bef4c42459772e8d35a53b" || item.Parent == "5a341c4686f77469e155819e") && item.Properties.FaceShieldComponent == true)
             {
                 faceShieldHelmets.Add(item.Id);
             }
